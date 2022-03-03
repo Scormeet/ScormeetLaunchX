@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+</head>
+<body>
+    <h1>Realiza tu pedido! </h1>
+
+    <form action="./pedido.js">
+        <label for="Nombre"> Ingresa tu nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="nombre">
+        <br>
+        <label for="mesa"> Tu mesa (Numero abajo)</label>
+        <input type="number" id="mesa" name="mesa" placeholder="mesa">
+        <br>
+        <p> Para comer aquí o para llevar?</p>
+        <label>Aquí</label>
+        <input type="radio" id="aqui" name="aquiollevar" value="aqui">
+        <label>Llevar</label>
+        <input type="radio" id="llevar" name="aquiollevar" value="llevar">
+        <p>Selecciona tus tacos</p>
+        <input type="checkbox" id="mercurio" name="mercurio" value="mercurio">
+        <label for="mercurio">Mercurio</label>
+        <input type="number" id="cmercurio" name="cmercurio" value="cmercurio" placeholder="Cuantos?">
+        <br>
+        <input type="checkbox" id="venus" name="venus" value="venus">
+        <label for="venus">Venus</label>
+        <input type="number" id="cvenus" name="cvenus" value="cvenus" placeholder="Cuantos?">
+        
+        <p>De tomar?</p>
+        <select name="refreso" id="refresco">
+            <option value="Coca-Cola">Coca-Cola</option>
+            <option value="Sprite">Sprite</option>
+            <option value="Fanta">Fanta</option>
+        </select>
+        <br><br>
+        <input type="reset" value="Borrar Pedido">
+        <input type="submit" value="Envíar Pedido">
+        <br><br>
+    </form>
+    
+</body>
+</html>
