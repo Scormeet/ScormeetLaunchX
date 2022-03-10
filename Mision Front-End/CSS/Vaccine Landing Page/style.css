@@ -31,7 +31,7 @@ li{
 
 .navlink{
     font-size: 17px;
-    color: darkgray;
+    color: rgb(145, 158, 167);
     text-decoration: none;
 }
 
@@ -58,3 +58,73 @@ li{
     font-weight: bolder;
     font-size: 60px;
 }
+
+.maintext{
+    color: rgb(145, 158, 167);
+    font-weight: bolder;
+}
+
+.texticon{
+    text-decoration: none;
+    padding-left: 15px;
+    color:#023374;
+    font-weight: bold;
+}
+
+.rowintro {
+    width: 100%;
+    text-align: left; 
+  }
+  
+  .rowitems {
+    padding-right: 25px;
+    display: inline-block; 
+  }
+
+  .fa-shield-blank, .fa-star{
+    color: yellow;
+  }
+  
+  .fa-clock{
+      padding-top: 180px;
+      color: #0059cd;
+  }
+
+  .textclock{
+    text-decoration: none;
+    padding-left: 15px;
+    color:#023374;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .card-group{
+      background: rgba(255, 255, 255, 0.85);
+      margin-left: 12%;
+    width: 70%;
+    position: absolute;
+  }
+
+  .titlecard{
+    text-decoration: none;
+    padding-left: 15px;
+    color: rgb(145, 158, 167);
+    font-weight: bold;
+  }
+
+.card-text{
+      color: #023374;
+      font-weight: bold;
+      padding-left: 28px;
+  }
+
+.fa-location-dot, .fa-syringe, .fa-calendar-days{
+    color: #0059cd;
+}
+
+.card{
+    padding-right: 0px;
+}
+
+
+
