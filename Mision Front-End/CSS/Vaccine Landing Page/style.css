@@ -1,0 +1,60 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+#navbar{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: fixed;
+    margin-left: 7%;
+    background: rgba(255, 255, 255, 0.85);
+}
+
+#navtitle{
+    font-weight: bolder;
+    font-size: 25px;
+    color: #0059cd;
+    padding-right: 18%;
+}
+
+
+li{
+    display: inline-block;
+    font-weight: bolder;
+    margin-right: 55px;
+}
+
+.navlink{
+    font-size: 17px;
+    color: darkgray;
+    text-decoration: none;
+}
+
+#button{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.vaccine1img{
+    object-fit: cover;
+    float:right;
+    width: 650px;
+    height: 900px;
+}
+
+.intro{
+    margin-top: 14%;
+    margin-left: 9%;
+}
+
+.maintitle{
+    color: #023374;
+    font-weight: bolder;
+    font-size: 60px;
+}
