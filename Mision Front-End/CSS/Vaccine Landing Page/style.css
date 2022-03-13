@@ -12,7 +12,7 @@ body{
     padding-bottom: 20px;
     position: fixed;
     margin-left: 7%;
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.9);
 }
 
 #navtitle{
@@ -76,21 +76,21 @@ li{
     text-align: left; 
   }
   
-  .rowitems {
+.rowitems {
     padding-right: 25px;
     display: inline-block; 
   }
 
-  .fa-shield-blank, .fa-star{
+.fa-shield-blank, .fa-star{
     color: yellow;
   }
   
-  .fa-clock{
+.fa-clock{
       padding-top: 180px;
       color: #0059cd;
   }
 
-  .textclock{
+.textclock{
     text-decoration: none;
     padding-left: 15px;
     color:#023374;
@@ -98,14 +98,16 @@ li{
     font-weight: bold;
   }
 
-  .card-group{
+.card-group{
+      border: none;
       background: rgba(255, 255, 255, 0.85);
       margin-left: 12%;
-    width: 70%;
-    position: absolute;
+      width: 65%;
+      position: absolute;
+      border-radius: 100%;
   }
 
-  .titlecard{
+.titlecard{
     text-decoration: none;
     padding-left: 15px;
     color: rgb(145, 158, 167);
@@ -123,8 +125,74 @@ li{
 }
 
 .card{
-    padding-right: 0px;
+    border: none;
+    position: fixed;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
+
+#buttoncard{
+    background-color: #023374;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+.logos{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-left: 160px;
+}
+
+.logo{
+    margin-right: 50px;
+    display: inline-block; 
+}
+
+.why{
+    margin-left: 9%;
+}
+
+.whytitle{
+    color: #023374;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.whytext{
+    color: rgb(145, 158, 167);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.reasons{
+    margin-left: 12%;
+}
+
+.cardr{
+    border: none;
+    float: left;
+    padding: 0px;
+    margin-right: 25px;
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+}
+
+.card-titler{
+    text-decoration: none;
+    font-weight: 600;
+    color: #023374;
+  }
+
+.card-textr{
+      color: rgb(145, 158, 167);
+      font-weight: bold;
+      font-size: 12px;
+  }
+
+
 
 
 
