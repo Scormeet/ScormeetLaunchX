@@ -105,6 +105,7 @@ li{
       width: 65%;
       position: absolute;
       border-radius: 100%;
+      display: grid;    
   }
 
 .titlecard{
@@ -164,6 +165,7 @@ li{
     color: rgb(145, 158, 167);
     font-weight: bold;
     font-size: 17px;
+    margin-bottom: 50px;
 }
 
 .reasons{
@@ -171,16 +173,16 @@ li{
 }
 
 .cardr{
-    border: none;
+    border: 1px;
     float: left;
     padding: 0px;
     margin-right: 25px;
     display: grid;
-    gap: 1rem;
-    grid-auto-flow: column;
 }
 
 .card-titler{
+    padding-top: 20px;
+    padding-bottom: 7px;
     text-decoration: none;
     font-weight: 600;
     color: #023374;
@@ -189,7 +191,30 @@ li{
 .card-textr{
       color: rgb(145, 158, 167);
       font-weight: bold;
-      font-size: 12px;
+      font-size: 14px;
+  }
+
+  .fa-viruses{
+    color: #023374;
+    margin-left: 10px;
+  }
+  .fa-shield{
+    color: #023374;
+    margin-left: 10px;
+  }
+  .fa-users{
+    color: #023374;
+    margin-left: 10px;
+  }
+  .fa-arrow-trend-up{
+    color: #023374;
+    margin-left: 10px;
+  }
+
+  .preparations{
+      float:right;
+      padding-top: 10%;
+      padding-right: 7%;
   }
 
 
