@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link type="text/css" rel="stylesheet" href="style.css">
-    <script src="pokedex.js"></script>
     <title>Pokedex</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="pokedex.js"></script>
 </head>
 <body>
     <img src="./images/logo.png" class="logo">
@@ -26,8 +27,13 @@
         
         <h4 id="pokeN">¿Quien será ese Pokemon?</h4><br>
         <img  src="./images/pokeball.png" id="pokeImg" width="250">
-        <h5 id="weight">Peso: </h5>
-        <h5 id="weight">Altura: </h5>
+        <h5 id="type">&nbsp; </h5>
+        <h4 id="stats">&nbsp;</h4>
+        
+        <canvas id="myChart"></canvas>
+        
+        <h5 id="moves">Movimientos: </h5>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     </div>
 </body>
 </html>
