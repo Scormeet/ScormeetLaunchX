@@ -1,18 +1,175 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img class="logo" alt="Bakership Logo" src="../assets/Bakership.png" width="400" height="300">
+    <div class="titles">
+        <h3>Bienvenido a Bakership!</h3>
+        <h4>Explora m&aacute;s all&aacute; los horizontes del sabor</h4>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h5 class="menu">Menú</h5>
+
+    <div class="cards">
+        <div class="row">
+            <div class="col s12 m7">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../assets/base.jpg">
+                        <span class="card-title">Base</span>
+                    </div>
+                    <div class="card-content">
+                        <li>Tres Leches &ensp; $100</li>
+                        <li>Fondant &ensp;  $150</li>
+                        <li>Cheescake &ensp; $120</li>
+                        <li>Tiramisú &ensp; $160</li>
+                        <li>Brazo Gitano &ensp; $140</li>
+                        <li>Ópera &ensp; $180</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col s12 m7">
+          <div class="card">
+            <div class="card-image">
+              <img src="../assets/cubierta.jpg">
+              <span class="card-title">Cubierta</span>
+            </div>
+                <div class="card-content">
+                    <li>Chocolate &ensp;$20</li>
+                    <li>Frutos Rojos &ensp;$40</li>
+                    <li>Kiwi &ensp;$30</li>
+                    <li>Mango &ensp;$30</li>
+                    <li>Almendras &ensp;$20</li>
+                    <li>BlueBerries &ensp;$40</li>
+                </div>
+            </div>
+        </div>
+</div>
+<div class="row">
+    <div class="col s12 m7">
+        <div class="card">
+            <div class="card-image">
+                <img src="../assets/adornos.jpg">
+                <span class="card-title">Adornos</span>
+            </div>
+            <div class="card-content">
+                <li>Explosisón Frutal $50</li>
+                <li>Bolas de Nieve $70</li>
+                <li>Lluvia de Chispas $20</li>
+                <li>Río de Chocolate $50</li>
+                <li>Tormenta Glass $10</li>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<a href="#" id="order" class="waves-effect waves-light btn"><router-link to="/about">Hacer Pedido</router-link></a>
+    
+
+<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contacto</h5>
+          <p class="grey-text text-lighten-4">
+            CASA MATRIZ
+            Parque España 7
+            
+            Condesa, Cuauhtémoc
+            
+            06140 Ciudad de México, México
+            
+            Tels. 555211.0904 y 555211.0951
+            <br>
+
+            Horarios <br>
+
+            Lunea a Viernes de 9:00AM a 9:00PM<br>
+
+            Sabados y Domingos de 10:00AM a 11:00PM<br>
+          </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <rect x="4" y="4" width="16" height="16" rx="4" />
+                <circle cx="12" cy="12" r="3" />
+                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tiktok" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5" />
+              </svg>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2022 Bakership
+      </div>
+    </div>
+  </footer>
   </div>
+
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'HomeView',
-  components: {
-    HelloWorld
-  }
+
 }
 </script>
+
+<style>
+.titles{
+  float: left;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.logo{
+  margin-left: 3%;
+  float: left;
+}
+
+.cards{
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+  float: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  }
+
+  .menu{
+    padding-left: 7%;
+  }
+
+  #order{
+    float: left;
+    margin-left: 5%;
+    margin-top: 28%;
+    margin-bottom: 2%;
+    background-color: crimson;
+  }
+
+  .card{
+    width: 300px;
+  }
+
+
+</style>

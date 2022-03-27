@@ -1,7 +1,12 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <div class="nav-wrapper">
+      <a href="#" id="navtitle" class="brand-logo">Bakership</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><router-link to="/">Menú</router-link></li>
+        <li><router-link to="/about">Hacer Pedido</router-link></li>
+      </ul>
+    </div>
   </nav>
   <router-view/>
 </template>
@@ -11,12 +16,11 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 
-nav {
-  padding: 30px;
+#navtitle{
+  padding-left: 30px;
 }
 
 nav a {
