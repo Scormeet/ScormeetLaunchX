@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="menu">
     <img class="logo" alt="Bakership Logo" src="../assets/Bakership.png" width="400" height="300">
     <div class="titles">
         <h3>Bienvenido a Bakership!</h3>
@@ -129,12 +129,17 @@
 <script>
 
 export default {
-  name: 'HomeView',
+  name: 'MenuPage',
 
 }
 </script>
 
 <style scoped>
+
+.menu{
+  padding-left: 60px;
+}
+
 .titles{
   float: left;
   padding-top: 5%;

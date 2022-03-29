@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="pedido">
       <img src="../assets/Bakership.png" class="logo" width="400" height="300">
     <h4 class="title">Hora de Realizar un pedido!</h4>
     <div id="userdata" class="row">
@@ -184,7 +184,7 @@
 <script>
 
 export default {
-  name: 'AboutView',
+  name: 'PedidoPage',
 
 }
 </script>

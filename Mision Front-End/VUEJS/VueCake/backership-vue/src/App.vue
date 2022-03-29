@@ -4,7 +4,8 @@
       <a href="#" id="navtitle" class="brand-logo">Bakership</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><router-link to="/">Menú</router-link></li>
-        <li><router-link to="/about">Hacer Pedido</router-link></li>
+        <li><router-link to="/pedido">Hacer Pedido</router-link></li>
+        <li><router-link to="/admin">Administrador</router-link></li>
       </ul>
     </div>
   </nav>
