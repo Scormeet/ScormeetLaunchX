@@ -134,7 +134,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .titles{
   float: left;
   padding-top: 5%;
@@ -160,7 +160,7 @@ export default {
   }
 
   #order{
-    float: left;
+    float: left; 
     margin-left: 5%;
     margin-top: 28%;
     margin-bottom: 2%;
